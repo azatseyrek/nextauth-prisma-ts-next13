@@ -1,0 +1,23 @@
+POST http://localhost:3000/api/user
+Content-Type: application/json
+
+{
+    "name": "Miran Seyrek",
+    "email" : "miran@test.com",
+    "password" : "123123"
+}
+
+### Login
+
+POST http://localhost:3000/api/login
+Content-Type: application/json
+
+{
+    "name": "Azat Seyrek",
+    "email" : "test@test.com",
+    "password" : "123123"
+}
+###get user post
+GET http://localhost:3000/api/user/1
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJ0ZXN0QHRlc3QuY29tIiwibmFtZSI6IkF6YXQgU2V5cmVrIiwiaWF0IjoxNjkwMjAzMTQzLCJleHAiOjE2OTAyMDY3NDN9.M0zMU20QG3XszXqqyHhKMZkTW5V5m8sljJcTjYqeel4
+
